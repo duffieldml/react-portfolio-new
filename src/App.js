@@ -17,17 +17,14 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <div>
+        <Hero />
         <Header />
         <Wrapper>
-        {/* <Hero> */}
         <Route exact path="/" component={About} />
         <Route exact path="/contact" component={ContactPage} />
         <Route exact path="/portfolio" component={Portfolio} />
-        {/* </Hero> */}
         </Wrapper>
         <Footer />
-      </div>
     </Router>
   );
 }

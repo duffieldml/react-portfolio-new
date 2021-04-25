@@ -1,6 +1,7 @@
 .hero-img {
     background-image: linear-gradient(rgba(216, 214, 214, 0.692), rgba(17, 6, 34, 0.658)),url("../../assets/cool-background.png");
-    height: 100%;
+    height: auto;
+    width: auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
