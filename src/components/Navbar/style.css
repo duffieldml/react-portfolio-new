@@ -1,0 +1,32 @@
+hr.line {
+    border:  1px solid black;
+}
+
+@media screen and (max-width: 400px) {
+    body {
+      width: auto;
+    }
+    
+    /*Setting wrapper width*/
+    .wrapper {
+      width: 100%;
+    }
+
+    /*Repositioning of the contact form*/
+    #contact,
+    #index,
+    #portfolio {
+        padding-right: 15px;
+        margin-right: 10%;
+        padding-top: 10px;
+        padding-bottom: 30%;
+        /* margin-bottom: 10%; */
+        width: auto;
+    }
+    
+    /*Floating bio right to clear the picture*/
+    .bio {
+        float: right;
+    }
+
+}

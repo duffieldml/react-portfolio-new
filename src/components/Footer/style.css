@@ -1,0 +1,10 @@
+.footer {
+    position: fixed;
+    height: 5%;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    background-color:rgba(17, 6, 34, 0.658);
+    color: gainsboro;
+    text-align: center;
+}

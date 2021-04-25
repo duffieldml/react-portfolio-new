@@ -1,0 +1,131 @@
+
+* {
+  box-sizing: border-box;
+}
+
+/* Bolding h2 tags */
+h2 {
+  font-weight: bold;
+  color: rgb(4, 4, 12);
+  text-align: center;
+}
+
+/*Creating thicker hr line */
+hr.line {
+  border:  1px solid black;
+}
+
+/* Styling for the index page*/
+#contact {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30%;
+}
+
+
+/* Styling for the index page*/
+#index {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 2%;
+  padding-bottom: 30%;
+  color: black;
+  text-emphasis: bold;
+  background-color: rgb(112, 110, 139);
+  background: transparent;
+  opacity: 90%;
+}
+
+/*Text layout for the About me section*/
+.about-me {
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+body {
+  resize: both;
+  overflow: auto;
+  height: 100%;
+}
+
+/*Adding in padding on the left for all row classes*/
+.row {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.card-title,
+.card-footer {
+  text-align: center;
+}
+
+
+
+.card-deck {
+  margin-bottom: 20%;
+  opacity: 95%;
+}
+
+.card {
+  opacity: 500%;
+  background-color: rgb(112, 110, 139);
+  color: rgb(5, 5, 5);
+}
+
+/*Position & styling for the footer*/
+.footer {
+  position: fixed;
+  height: 5%;
+  left: 0%;
+  bottom: 0%;
+  width: 100%;
+  background-color:rgba(17, 6, 34, 0.658);
+  color: gainsboro;
+  text-align: center;
+}
+
+/* .hero-img {
+  background-image: linear-gradient(rgba(216, 214, 214, 0.692), rgba(17, 6, 34, 0.658)),url("cool-background.png");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+} */
+
+.me {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+/*media query to fix elements when resized to 450px and below */
+@media screen and (max-width: 400px) {
+  body {
+    width: auto;
+  }
+  
+  /*Setting wrapper width*/
+  .wrapper {
+    width: 100%;
+  }
+
+  /*Repositioning of the contact form*/
+  #contact,
+  #index,
+  #portfolio {
+      padding-right: 15px;
+      margin-right: 10%;
+      padding-top: 10px;
+      padding-bottom: 30%;
+      /* margin-bottom: 10%; */
+      width: auto;
+  }
+  
+  /*Floating bio right to clear the picture*/
+  .bio {
+      float: right;
+  }
+
+}
