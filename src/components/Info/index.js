@@ -7,13 +7,13 @@ function Info() {
     return (
         <section id="index">
             <h2>About Me</h2>
-            <hr class="line" />
-            <div class="card mb-3">
-                <div class="row g-0">
-                    <div class="col-md-12">
-                        <div class="card-body">
-                            <img src="../../assets/Husband.png" alt="Matt Duffield Picture" class="me" />
-                            <p class="about-me">I'm Matt Duffield, a 30 year old living in Grand Rapids, MI. I
+            <hr className="line" />
+            <div className="card mb-3">
+                <div className="row g-0">
+                    <div className="col-md-12">
+                        <div className="card-body">
+                            <img src="../../assets/Husband.png" alt="Matt Duffield Picture" className="me" />
+                            <p className="about-me">I'm Matt Duffield, a 30 year old living in Grand Rapids, MI. I
                                 grew in Caledonia, Michigan and attended Grand
                                 Valley State University for 2
                                 years with the hope of obtaining a photography degree, but I dropped out before
