@@ -1,8 +1,9 @@
 import React from "react";
+import Info from "../components/Info"
 
 function About() {
     return(
-        <p>About me area</p>
+        <Info />
     );
 }
 
