@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./style.css";
 
 function Navbar() {
@@ -15,19 +15,19 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <Link to="/contact" className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}>Contact</Link>
+                        <NavLink to="/contact" className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}>Contact</NavLink>
                     </li>
                     <li className="nav-item">
-                        <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>About Me</Link>
+                        <NavLink to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>About Me</NavLink>
                     </li>
                     <li className="nav-item active">
-                        <Link to="/portfolio" className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>Portfolio</Link>
+                        <NavLink to="/portfolio" className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>Portfolio</NavLink>
                     </li>
                     <li className="nav-item">
-                        <Link to="https://my.indeed.com/p/matthewd-i1ttmid">Indeed</Link>
+                        <NavLink to="https://my.indeed.com/p/matthewd-i1ttmid">Indeed</NavLink>
                     </li>
                     <li className="nav-item">
-                        <Link to="https://github.com/duffieldml">Github</Link>
+                        <NavLink to="https://github.com/duffieldml">Github</NavLink>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="Assets\Matthew Duffield Resume.pdf" download><i
