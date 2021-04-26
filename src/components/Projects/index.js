@@ -7,7 +7,7 @@ import "./style.css"
 
 function Projects() {
     return (
-        <div className="class container">
+        // <div className="class container">
             <section className="row">
                 <div className="col-md-12">
                     <br></br>
@@ -118,7 +118,7 @@ function Projects() {
                     </div>
                 </div>
             </section>
-        </div>
+        // </div>
     );
 }
 
