@@ -17,9 +17,6 @@ hr.line {
     padding-bottom: 30%;
     color: black;
     text-emphasis: bold;
-    background-color: rgb(112, 110, 139);
-    background: transparent;
-    opacity: 90%;
 }
 
     /*Text layout for the About me section*/
@@ -38,11 +35,11 @@ hr.line {
 
 .card-deck {
   margin-bottom: 20%;
-  opacity: 95%;
+  /* opacity: 95%; */
 }
 
 .card {
-  opacity: 500%;
+  /* opacity: 500%; */
   background-color: rgb(112, 110, 139);
   color: rgb(5, 5, 5);
 }
