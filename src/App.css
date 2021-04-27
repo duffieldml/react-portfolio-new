@@ -86,13 +86,13 @@ body {
 }
 
 /* .hero-img {
-  background-image: linear-gradient(rgba(216, 214, 214, 0.692), rgba(17, 6, 34, 0.658)),url("cool-background.png");
+  background-image: linear-gradient(rgba(216, 214, 214, 0.692), rgba(17, 6, 34, 0.658)),url("../src/assets/cool-background.png");
   height: 100%;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center;
   background-size: cover;
-} */
+ } */
 
 .me {
   float: left;

@@ -116,7 +116,7 @@ function Projects() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> 
     );
 }
 
