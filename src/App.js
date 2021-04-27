@@ -17,8 +17,9 @@ import './App.css';
 function App() {
   return (
     <Router>
-        <Hero />
+        {/* <Hero /> */}
         <Header />
+        {/* <Hero /> */}
         <Wrapper>
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={ContactPage} />

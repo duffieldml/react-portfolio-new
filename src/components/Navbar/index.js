@@ -20,7 +20,7 @@ function Navbar() {
                     <li className="nav-item">
                         <NavLink to="/about" className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}>About Me</NavLink>
                     </li>
-                    <li className="nav-item active">
+                    <li className="nav-item">
                         <NavLink to="/portfolio" className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>Portfolio</NavLink>
                     </li>
                     <li className="nav-item">
@@ -30,7 +30,7 @@ function Navbar() {
                         <NavLink to="https://github.com/duffieldml">Github</NavLink>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="Assets\Matthew Duffield Resume.pdf" download><i
+                        <a className="nav-link" href="./Matthew Duffield Resume.pdf" download><i
                             className="fa fa-download"></i>Resume</a>
                     </li>
                 </ul>
