@@ -10,11 +10,43 @@ hr.line {
 }
 
 /* Styling for the index page*/
-#contact {
+#index {
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 2%;
     padding-bottom: 30%;
+    color: black;
+    text-emphasis: bold;
+    background-color: rgb(112, 110, 139);
+    background: transparent;
+    opacity: 90%;
 }
+
+    /*Text layout for the About me section*/
+.about-me {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.card-title,
+.card-footer {
+  text-align: center;
+}
+
+
+
+.card-deck {
+  margin-bottom: 20%;
+  opacity: 95%;
+}
+
+.card {
+  opacity: 500%;
+  background-color: rgb(112, 110, 139);
+  color: rgb(5, 5, 5);
+}
+
 
 .row {
     padding-left: 20px;
