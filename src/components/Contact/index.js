@@ -28,9 +28,6 @@ class Contact extends React.Component {
 
     handleSubmit(event) {
         event.preventDefault();
-        const maillink = "mailto:duffieldml@gmail.com?subject=Inquiry Response From:"+this.state.email+
-        "&body="+this.state.message+" - "+this.state.name+", "+this.state.email
-        window.location.href = maillink;
         this.clearForm();
     }
 
